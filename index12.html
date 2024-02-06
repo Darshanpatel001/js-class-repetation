@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let angale1,angale2,angale3
+angale1=60
+angale2=60
+angale3=60
+
+let sum= angale1+angale2+angale3
+
+let check
+if(angale1!=0 && angale2!=0 && angale3!=0){
+check = (sum== 180 && angale1==angale2 && angale2==angale3 && angale1==angale3) ? console.log("Triange is valid  equilateral") : 
+(sum== 180 && angale1!=angale2 && angale2!=angale3 && angale1!=angale3) ? console.log("triange is valid scalene ") :
+(sum == 180) ? console.log("triange is valid  isosceles") : console.log('triangel is not valid')
+}
+else{
+  console.log("triangle is not valid")
+}
+    </script>
+</body>
+</html>
